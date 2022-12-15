@@ -26,7 +26,7 @@ document.getElementById('btn-withdraw').addEventListener('click', function () {
     withdrawField.value = '';
 
     if (isNaN(newWithdrawAmount)) {
-        alert('Please provide a valid number');
+        alert('Number likhen sir :3');
         return;
     }
 
@@ -43,7 +43,7 @@ document.getElementById('btn-withdraw').addEventListener('click', function () {
 
 
     if (newWithdrawAmount > previousBalanceTotal) {
-        alert('Baap er bank e eto taka nai');
+        alert('Amar baap er bank e eto taka nai, Apnar baap re bolen amar baap re taka dite');
         return;
     }
 

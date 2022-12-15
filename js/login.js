@@ -5,11 +5,11 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     const passwordField = document.getElementById('user-password');
     const password = passwordField.value;
 
-    if (email === 'AsifUpoma1416@gmail.com' && password === '1416') {
+    if (email === 'asifupoma1416@gmail.com' && password === '1416') {
         window.location.href = 'bank.html';
 
     }
     else {
-        alert('Invalid Password. Ei Chor, Ekhane ki? Bank dakati korbi naki?')
+        alert('Password chara dhuka nished. Amar Bank dakati korben naki?')
     }
 })
